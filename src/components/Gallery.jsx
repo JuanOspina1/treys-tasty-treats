@@ -5,7 +5,7 @@ import GridItem from "./GridItem";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen bg-white">
+    <div name="gallery" className="w-full md:h-screen bg-white">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-black ">
           <p className="text-4xl font-bold inline border-b-4 border-[#7cc6d2]">

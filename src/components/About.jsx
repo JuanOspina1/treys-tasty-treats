@@ -11,11 +11,12 @@ const About = () => {
             style={{ backgroundImage: `url(${HomePicture})` }}
             className="shadow-lg shadow-[#040c16] rounded-md  bg-cover bg-center h-[650px]"
           ></div>
-          <div className="max-w-[1000px] w-full  gap-8 px-4">
-            <div
-              style={{ backgroundImage: `url(${Slogan})` }}
-              className="bg-cover bg-center h-[650px]"
-            ></div>
+          <div className="max-w-[1000px] w-full gap-8 px-4 grid-rows-3">
+            <div>row 1</div>
+
+            <div>row 2</div>
+
+            <div>row 3</div>
           </div>
         </div>
       </div>
