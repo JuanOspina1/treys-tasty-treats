@@ -10,3 +10,11 @@
     @apply font-bold;
   }
 }
+
+/* This remains in the css folder since these are not Tailwind CSS attributes - I can look for these in Tailwind docs and refactor into the component*/
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
