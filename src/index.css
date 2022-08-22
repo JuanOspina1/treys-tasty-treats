@@ -9,6 +9,14 @@
     @apply text-lg;
     @apply font-bold;
   }
+
+  .about-text-h1 {
+    @apply text-black font-bold;
+  }
+
+  .about-text {
+    @apply text-black;
+  }
 }
 
 /* This remains in the css folder since these are not Tailwind CSS attributes - I can look for these in Tailwind docs and refactor into the component*/
